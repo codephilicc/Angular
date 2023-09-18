@@ -1,6 +1,9 @@
 
-<h1>{{getId()}}</h1>
-<h1>{{getName()}}</h1>
-<h1>{{getPrice()}}</h1>
+<div *ngFor="let product of products">
+<h1>{{product}}</h1>
+<!-- <h1>{{product}}</h1> -->
+
+</div>
+
 
 <app-seller></app-seller>
